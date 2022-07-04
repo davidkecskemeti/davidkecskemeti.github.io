@@ -1,0 +1,25 @@
+.title{
+    margin-bottom: 3rem !important;
+}
+
+.section{
+    font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-bottom: 1rem !important;
+}
+
+.container {
+        display: grid;
+        grid-template-columns: repeat( auto-fit, minmax(25rem, 1fr) );
+        // grid-template-columns: 30rem 30rem;
+        grid-gap: 5rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+}
+  
+
+
