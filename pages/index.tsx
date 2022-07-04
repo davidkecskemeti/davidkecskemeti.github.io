@@ -17,7 +17,7 @@ const Home: NextPage = () => {
           name="description"
           content="David Kecskemeti CV Full Stack Developer"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href={`${process.env.FAVICON}/favicon.ico`} />
       </Head>
 
       <main>
