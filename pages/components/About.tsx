@@ -6,8 +6,6 @@ interface AboutProps {}
 const About: React.FC<AboutProps> = () => {
   const getNumberOfYearsOfExperience = () => new Date().getFullYear() - 2015;
 
-  console.log(getNumberOfYearsOfExperience());
-
   return (
     <div className={styles.container}>
       <div className={styles.section} id="about">
