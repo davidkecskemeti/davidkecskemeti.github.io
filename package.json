@@ -14,7 +14,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next export"
+    "export": "next export",
+    "static": "next build && next export && touch ./out/.nojekyll && echo 'davidkecskemeti.github.io' > ./out/CNAME",
+    "deploy": "gh-pages -d out -t true"
+
   },
   "eslintConfig": {
     "extends": [

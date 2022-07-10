@@ -8,6 +8,8 @@ module.exports = {
     loader: "akamai",
     path: "",
   },
-  basePath: "/davidkecskemeti.github.io",
-  assetPrefix: "/davidkecskemeti.github.io/",
+  assetPrefix: "",
+  env: {
+    BACKEND_URL: "/",
+  },
 };
