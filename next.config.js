@@ -9,5 +9,5 @@ module.exports = {
     path: "",
   },
   basePath: "/davidkecskemeti.github.io",
-  assetPrefix: "/davidkecskemeti.github.i/o",
+  assetPrefix: "/davidkecskemeti.github.io/",
 };
